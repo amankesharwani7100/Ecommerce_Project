@@ -1,0 +1,35 @@
+
+  h1 {
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+  }
+  p {
+    padding-left: 20px; /* Adjust the value as needed */
+    padding-right: 100px; /* Adjust the value as needed */
+  }
+  .slider_img-box .img{
+padding-left: 500px;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slider-container img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .slider-container img:first-child {
+    opacity: 1;
+  }

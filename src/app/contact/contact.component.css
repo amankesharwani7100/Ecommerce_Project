@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 100vh; /* Ensure the container covers the full height of the viewport */
+}
+
+.contact-form {
+  height: 70%;
+  width: 80%; /* Set width to 70% of its container */
+  width: 600px; /* Limit the maximum width of the form */
+  padding: 20px; /* Add padding to the form */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.image-container {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  height: 100%; /* Ensure the image container covers the full height of the viewport */
+  width: 30%; /* Set width to 30% of the viewport */
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right side */
+  align-items: center; /* Center the image vertically */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure the image resizes proportionally */
+  height: auto;
+}
+
+
+  
+  /* .contact-form {
+    padding-left: 20%;
+    width: auto;
+    background-color: #0c0000;
+    padding: 20px;
+    flex: 1;
+    padding-right: 20px;
+    width: 700px;
+    float: center;
+    justify-content: center;
+    padding-left: 300px;
+  } */
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: bold;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f84d0a; /* Adding the color */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  .form-group button {
+    background-color: #f84d0a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #0a0a0a;
+  }
+  
+  
+  /* .contact-form {
+    
+  } */
+  
+ 
